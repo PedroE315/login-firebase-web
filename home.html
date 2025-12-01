@@ -1,39 +1,45 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zona Privada</title>
 
   <!-- Firebase versión 8 -->
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
-  <link rel="stylesheet" href="CSS/estilos.css">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="CSS/estilos.css" />
 </head>
 
 <body>
 
   <div class="card-home">
-    <h1>Bienvenido, Caballeros</h1>
 
-    <p class ="subtitulo-home">Tu cosmos ha sido reconociedo por Athena</p>
+    <!-- Título estilizado -->
+    <h1 class="titulo-home">Bienvenido, Caballero</h1>
 
-    <div class = "video-box">
+    <!-- Subtítulo -->
+    <p class="subtitulo-home">Tu cosmos ha sido reconocido por Athena</p>
+
+    <!-- Video -->
+    <div class="video-box">
       <video width="480" controls>
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
       </video>
-   </div>
-    
+    </div>
 
-     <!-- Botón para cerrar sesión -->
-     <button id="cerrar">Cerrar sesión</button>
+    <!-- Botón cerrar sesión -->
+    <button id="cerrar" class="btn-cerrar">Cerrar sesión</button>
+
   </div>
+
   <!-- Archivos JS -->
   <script src="JS/app.js"></script>
   <script src="JS/auth.js"></script>
 
 </body>
 </html>
+
 
